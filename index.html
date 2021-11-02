@@ -1,1 +1,136 @@
 <!DOCTYPE HTML5>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width= device-width, initial=scale=1 "/>
+    <title>HTML tutorial</title>
+</head>
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+    }
+    h1{
+        display: block;
+        text-align: center;
+    }
+    h2{
+        display: block;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    
+    #chicken{
+        display: block;
+        width: fit-content;
+        float: right;
+        background-color: rgb(236, 184, 201);
+        border: 1px solid black;
+    }
+    #beef{
+        display: block;
+        width: fit-content;
+        float: right;
+        background-color: rgb(209, 102, 102);
+        border: 1px solid black;
+    }
+    #sushi{
+        display: block;
+        width: fit-content;
+        float: right;
+        background-color: rgb(228, 228, 131);
+        border: 1px solid black;
+    }
+    #one{
+        margin: 10px;
+        border: 1px solid black;
+        background-color: gray;
+    }
+    #two{
+        margin: 10px;
+        border: 1px solid black;
+        background-color: gray;
+    }
+    #three{
+        margin: 10px;
+        border: 1px solid black;
+        background-color: gray;
+    }
+    p{
+        text-align: justify;
+        margin: 10px;
+        clear: right;
+    }
+   
+    .header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    
+    .column {
+      display:block;
+      float: left; 
+      width: 33.33%;
+      padding: 15px;
+      
+
+    }
+    
+
+    .row {
+      content: "";
+      display: block;
+      clear: both;
+      
+      background-color: gray;
+    }
+     
+    
+
+    @media (max-width:992px) {
+      .column {
+        width: 100%;
+      }
+    }
+    @media (min-width:768px) and ( max-width:991px) {
+      .column {
+        width: 50%;
+      }
+    }
+    </style>
+<body>
+    <h1>Our Menu</h1>
+    <div class="row">
+        <div class="column">
+        <div id="one">
+            <div id="chicken"><h2 >Chicken</h2></div>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+        </div>
+        
+        <div class="column">
+        <div id="two">
+            <div id="beef"><h2 >Beef</h2></div>
+        
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+        </div>
+        
+        <div class="column">
+        <div id="three">
+            <div id="sushi"><h2 >Sushi</h2></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+        <div>
+      </div>  
+</body>
+</html>
